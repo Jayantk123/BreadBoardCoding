@@ -1,0 +1,12 @@
+.st-custom-button[data-network] {
+   background-color: #0adeff;
+   display: inline-block;
+   padding: 5px 10px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #fff;
+   
+   &:hover, &:focus {
+      text-decoration: underline;
+      background-color: #00c7ff;
+   }
