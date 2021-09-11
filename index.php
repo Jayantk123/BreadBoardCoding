@@ -6,8 +6,6 @@ require_once('config.php');
 <html class="">
    <!-- ------------------Head start-------------------- -->
   <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
    
   <style>
      html {
@@ -24,11 +22,11 @@ require_once('config.php');
 
    
       <link href="./data/bootstrap.min.css" rel="stylesheet">
-    <link href="./data/font-awesome.min.css" rel="stylesheet">
+      <link href="./data/font-awesome.min.css" rel="stylesheet">
+      <link href="./data/stylesks.css" rel="stylesheet">
 
 
-
-    <link href="./data/stylesks.css" rel="stylesheet">
+    
 <!--  -->
 
       <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
@@ -44,7 +42,7 @@ require_once('config.php');
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./files/ahd2ult.css">
       <link rel="stylesheet" href="./files/style.11701e2ad8ce5da6b14c3a60d16e1ef0.css">
-     
+   
       <link rel="stylesheet" id="wp-block-library-css" href="./files/style.min.css" type="text/css" media="all">
       <link href="./files/css" rel="stylesheet">
      
@@ -116,6 +114,13 @@ body {
   }
 }
 
+
+.whatsapp-f{
+    position:fixed;
+    bottom:40px;
+    right:20px;
+}
+
 .mentor{
  border-right:2px solid #333333; 
 }
@@ -128,9 +133,6 @@ font-weight:bold;
 </style>
 
 
-
-
-
  </head>
 <!-- -------------------Head Finish-------------------------- -->
 
@@ -140,21 +142,21 @@ font-weight:bold;
    <body class="Page property--bms-u home page-template page-template-buildable page-template-buildable-php page page-id-5913" id="home" >
       <!-- <div class="nav-bg"></div> -->
     
-    
+ 
+
 
 <div class="heads">
 
       <div class="topnav fixed-top" id="myTopnav">
             <!-- <img src="./biglogo.png" class="imag">&nbsp;&nbsp; -->
-  <a href="https://breadboardcoding.ml/?i=1" class="active">BreadBoard</a>
+  <a href="https://breadboardcoding.ml/" class="active">BreadBoard</a>
   <a href="#hiring">Hiring</a>
   <a href="#about">About</a>
   <a href="#courses">Courses</a>
   <a href="#team">Team</a>
   <a href="#contact">Contacts</a>
-  <a href="#" target="_blank" style="" class="active mentor">Learner</a>
-  <a href="#" target="_blank" style="" class="active mentor">Mentor</a>
-  
+    <a href="#" target="_blank" style="" class="active mentor">Learner</a>
+  <a href="loginsystem/login.php" target="_blank" style="" class="active mentor">Mentor</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -162,10 +164,6 @@ font-weight:bold;
 </div>
 
 
-
-      <header class="nav nav--flush">
-         <!-- soon ..we adding nav bar -->
-      </header>
       <section id="hero">
         <div class="content">
             <div class="wrapper" >
@@ -179,7 +177,7 @@ font-weight:bold;
                   <h1 style="color:white;">Breadboard Coding Society</h1>
                   <h2  style="color:white;">Enhance and upgrade your skills with us.</h2>
                   <div class="cta">
-                     <a class="btn btn--purple" href="https://docs.google.com/forms/d/1n3YEca3vEAJAgyuqqnVpnpPzVvButE6xGlFvvtPas54/edit?ts=6134db0e" target="_blank">
+                     <a class="btn btn--purple" href="https://docs.google.com/forms/d/1n3YEca3vEAJAgyuqqnVpnpPzVvButE6xGlFvvtPas54/edit?ts=6134db0e#responses" target="_blank">
                      Join With Us </a>
 
                   
@@ -303,18 +301,13 @@ font-weight:bold;
                   </ul>
                   </h2>
                   <hr>
-                  <!-- <h2><span>President:</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Pravesh and Ankush Garg <br> <br>
-                     <span>Vice President:</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Vaibhav and Jayant <br> <br>
-                     <span>General Secretaries:</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tushar and Shivam <br> <br>
-                     <span>Content Heads:</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Kartik and Shivam <br> <br>
-                     <span> Social Media and <br>Outreach Coordinators:</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Kartik and Tushar <br>
+                
                      
 
                     
-                  </h2> -->
+                  </h2>
                   <script>
-                     // need to use JS here because we cant add hover styles inline,
-                     // and without adding the first bg style, it's impossible to override
+                   
                      (function() {
                          var styleSheet = document.createElement("style");
                          styleSheet.type = "text/css";
@@ -324,11 +317,7 @@ font-weight:bold;
                   </script>
 
 
-                  <!-- <div class="cta">
-                     <a class="btn  aV3b9VBTCbY" href="https://codingclub.tech/#">
-                     GET ACCESS                    </a>
-                    
-                  </div> -->
+                
                </div>
                <div class="hero-side-image">
                   <img   src="./files/bbs.png">
@@ -728,7 +717,7 @@ font-weight:bold;
                                           He is a pre final year student of Information Technology branch in GTBIT.
                                            .He has worked on several projects like Cinema chain ,ticketing system, etc.  
                                            He has worked as Business Development Intern at DwarkaWala and Social Media Manager at Crazy Crow. 
-                                           Currently he is currently a part of EtCetera, 
+                                           Currently he is a part of EtCetera, 
                                           The Dramatic Society of GTBIT.
                                           </div>
                                        </div>
@@ -919,13 +908,13 @@ font-weight:bold;
                                     <div class="row">
                                        <div class="col-md-4">
                                           
-                                          <div class="review-image" style="background-image: url('./files/account.jpg');">
+                                          <div class="review-image" style="background-image: url('./files/ketan.jpeg');">
                                         </div>
                                         <div class="review-name">Ketan Patel </div>
                                           <div class="review-description">Android Developer Lead</div>
                                           <br>
                                           <div class="review-description">
-                                             <a href="./hiringdata.php" target="_blank" style="text-decoration:none; border: none;"><button  class=" lkdin btn-primary ">Reach Us</button></div></a>
+                                             <a href="https://www.linkedin.com/in/ketan-patel-8760411b0/" target="_blank" style="text-decoration:none; border: none;"><button  class=" lkdin btn-primary ">Reach Us</button></div></a>
                                           <br>
                                           <br>
                                        </div>
@@ -1059,9 +1048,6 @@ font-weight:bold;
                   
                                  <hr class="mb-3">
                                  <input class="btn btn-primary btns" type="submit" id="register" name="create" value="Submit"  style="margin-left: 25vh;" >
-                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
                               </div>
 
                               <div>
@@ -1180,16 +1166,7 @@ font-weight:bold;
 
 		
 	});
-   function submitForm() {
-   // Get the first form with the name
-   // Usually the form name is not repeated
-   // but duplicate names are possible in HTML
-   // Therefore to work around the issue, enforce the correct index
-   var frm = document.getElementsByName('contact-form')[0];
-   // frm.submit(); // Submit the form
-   frm.reset();  // Reset all form data
-   return false; // Prevent page refresh
-}
+ 
 	
 </script>
 
@@ -1268,4 +1245,26 @@ function myFunction() {
   }
 }
 </script>
+
+
+<script>
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+    s.addEventListener('load', function() {
+      var myLandbot = new Landbot.Livechat({
+        configUrl: 'https://chats.landbot.io/v3/H-993503-TUDCVFZGUEOKJL91/index.json',
+      });
+    });
+    s.src = 'https://static.landbot.io/landbot-3/landbot-3.0.0.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+</script>
+
+
 </body></html>
